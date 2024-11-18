@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery_application/model/bottom_icon_model.dart';
 import 'package:food_delivery_application/const.dart';
 import 'package:food_delivery_application/pages/home_page.dart';
+import 'package:food_delivery_application/pages/message_screen.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -14,7 +15,7 @@ class _MainPageState extends State<MainPage> {
   int currentIndex = 0;
   final List selectedPage = [
     const HomePage(),
-    const Center(child: Text('Message')),
+    const MessageScreen(),
     const Center(child: Text('Explore')),
     const Center(child: Text('Profile')),
   ];
