@@ -1,28 +1,29 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class BottomIconModel {
+class BottomIcon {
   final IconData unselected, selected;
-  BottomIconModel({
+
+  BottomIcon({
     required this.selected,
     required this.unselected,
   });
 }
 
-List<BottomIconModel> bottomIconModel = [
-  BottomIconModel(
+List<BottomIcon> bottomIcons = [
+  BottomIcon(
     selected: Icons.home_filled,
     unselected: Icons.home_outlined,
   ),
-  BottomIconModel(
+  BottomIcon(
     selected: CupertinoIcons.chat_bubble_text_fill,
     unselected: CupertinoIcons.chat_bubble_text,
   ),
-  BottomIconModel(
+  BottomIcon(
     selected: CupertinoIcons.compass_fill,
     unselected: CupertinoIcons.compass,
   ),
-  BottomIconModel(
+  BottomIcon(
     selected: Icons.person_rounded,
     unselected: Icons.person_outline_rounded,
   ),

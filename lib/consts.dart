@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-///color
+//color
 const korange = Color(0xFFf87b36);
 const kblack = Color(0xFF2a2f44);
 const kyellow = Color(0xFFf5ba61);

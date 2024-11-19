@@ -1,12 +1,10 @@
 class CategoryModel {
   final String image, name;
-  CategoryModel({
-    required this.image,
-    required this.name,
-  });
+
+  CategoryModel({required this.image, required this.name});
 }
 
-List<CategoryModel> category = [
+List<CategoryModel> myCategories = [
   CategoryModel(
     image: 'assets/images/ramen.png',
     name: 'Ramen',
